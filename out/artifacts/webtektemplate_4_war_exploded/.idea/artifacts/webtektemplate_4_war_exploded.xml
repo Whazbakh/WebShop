@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webtektemplate-4:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/webtektemplate_4_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="webtektemplate_handin5/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webtektemplate_handin5" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../../WebTek/cloud/out/production/cloud" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
